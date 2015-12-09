@@ -82,7 +82,5 @@ namespace Microsoft.Extensions.Configuration
         public IEnumerable<IConfigurationSection> GetChildren() => _root.GetChildrenImplementation(Path);
 
         public IChangeToken GetReloadToken() => _root.GetReloadToken();
-
-        public IConfigurationRoot Root { get { return _root;  } }
     }
 }
