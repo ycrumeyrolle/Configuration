@@ -1,0 +1,4 @@
+﻿{
+  "ConnectionString": "localhost:6379",
+  "ConfigurationKey": "configuration-key"
+}

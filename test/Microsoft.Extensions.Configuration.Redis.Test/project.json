@@ -1,0 +1,25 @@
+﻿{
+  "buildOptions": {
+    "warningsAsErrors": true,
+    "keyFile": "../../tools/Key.snk"
+  },
+  "dependencies": {
+    "dotnet-test-xunit": "2.2.0-*",
+    "Microsoft.Extensions.Configuration.Redis": "1.1.0-*",
+    "Microsoft.Extensions.Configuration.Test.Common": "1.0.0-*",
+    "xunit": "2.2.0-*",
+    "Moq": "4.6.36-*"
+  },
+  "frameworks": {
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "version": "1.0.0-*",
+          "type": "platform"
+        }
+      }
+    },
+    "net451": {}
+  },
+  "testRunner": "xunit"
+}

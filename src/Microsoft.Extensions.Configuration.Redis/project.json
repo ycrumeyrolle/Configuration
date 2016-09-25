@@ -1,0 +1,38 @@
+﻿{
+  "version": "1.1.0-*",
+  "buildOptions": {
+    "warningsAsErrors": true,
+    "keyFile": "../../tools/Key.snk",
+    "xmlDoc": true
+  },
+  "description": "Redis configuration provider implementation for Microsoft.Extensions.Configuration.",
+  "packOptions": {
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/aspnet/configuration"
+    },
+    "tags": [
+      "configuration",
+      "redis"
+    ]
+  },
+  "dependencies": {
+    "Microsoft.Extensions.Configuration": "1.1.0-*",
+    "StackExchange.Redis.StrongName": "1.1.605"
+  },
+  "frameworks": {
+    "net451": {
+      "frameworkAssemblies": {
+        "System.Runtime": {
+          "type": "build"
+        }
+      },
+      "dependencies": {
+      }
+    },
+    "netstandard1.5": {
+      "dependencies": {
+      }
+    }
+  }
+}
